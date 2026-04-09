@@ -4,7 +4,6 @@ import { Hero } from "@/components/home/hero"
 import { Categories } from "@/components/home/categories"
 import { FeaturedProducts } from "@/components/home/featured-products"
 import { PromoBanner } from "@/components/home/promo-banner"
-import { Testimonials } from "@/components/home/testimonials"
 import { getBestSellers, getNewProducts } from "@/lib/products"
 
 export default function HomePage() {
@@ -30,7 +29,7 @@ export default function HomePage() {
           products={newProducts}
           viewAllHref="/boutique?filter=new"
         />
-        <Testimonials />
+
       </main>
       <Footer />
     </div>
