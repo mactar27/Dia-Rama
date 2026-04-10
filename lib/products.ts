@@ -68,7 +68,7 @@ export const products: Product[] = [
   // LAITS DE CORPS
   {
     id: "l1",
-    name: "Mixa Corps",
+    name: "Mixa Expert Peau Sensible Lait Céramide Protection",
     slug: "mixa-corps",
     description: "Lait hydratant pour le corps, idéal pour les peaux sèches. Restaure la barrière cutanée.",
     price: 18000,
