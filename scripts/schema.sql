@@ -157,7 +157,7 @@ ON DUPLICATE KEY UPDATE discount_value = VALUES(discount_value);
 INSERT INTO products (id, name, slug, description, price, image, category_id, is_new, is_best_seller) VALUES
 ('p1', 'Suddenly Femelle', 'suddenly-femelle', 'Eau de parfum Suddenly Femelle de Lidl, 75 ml. Fragrance élégante.', 55000, '/suddenly-femelle.jpeg', 'cat-parfums', TRUE, TRUE),
 ('p2', 'Suddenly Mystique Original', 'suddenly-mystique', 'Eau de parfum Suddenly Mystique Original de Lidl, 75 ml.', 55000, '/suddenly-mystique.jpeg', 'cat-parfums', FALSE, TRUE),
-('d1', 'Dove Men', 'dove-men', 'Protection efficace 48h pour les hommes actifs.', 8500, '/dove-men.jpeg', 'cat-deodorants', FALSE, TRUE),
+('d1', 'Dove Men+Care Cool Fresh', 'dove-men', 'Déodorant spray anti-transpirant Dove Men+Care Cool Fresh.', 8500, '/dove-men.jpeg', 'cat-deodorants', FALSE, TRUE),
 ('d2', 'Dove Women', 'dove-women', 'Douceur et protection pour une sensation de fraîcheur toute la journée.', 8500, '/dove-women.jpeg', 'cat-deodorants', TRUE, FALSE),
 ('l1', 'Mixa Expert Peau Sensible Lait Céramide Protection', 'mixa-corps', 'Lait hydratant pour le corps, idéal pour les peaux sèches.', 18000, '/mixa-corps.jpeg', 'cat-laits', FALSE, TRUE),
 ('l2', 'Lait corporel Mixa Niacinamide Bright', 'mixa-lait-corps', 'Lait corporel enrichi pour une hydratation intense et durable.', 18000, '/mixa-lait-corps.jpeg', 'cat-laits', TRUE, FALSE),

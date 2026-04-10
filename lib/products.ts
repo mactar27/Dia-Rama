@@ -36,9 +36,9 @@ export const products: Product[] = [
   // DÉODORANTS
   {
     id: "d1",
-    name: "Dove Men",
+    name: "Dove Men+Care Cool Fresh",
     slug: "dove-men",
-    description: "Protection efficace 48h pour les hommes actifs. Formule respectueuse de la peau.",
+    description: "Déodorant spray anti-transpirant Dove Men+Care Cool Fresh. Protection efficace 48h pour les hommes actifs.",
     price: 8500,
     image: "/dove-men.jpeg",
     category: "deodorants",
