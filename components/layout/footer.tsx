@@ -21,10 +21,9 @@ const TikTok = (props: React.SVGProps<SVGSVGElement>) => (
 
 const footerLinks = {
   boutique: [
-    { name: "Visage", href: "/boutique?category=visage" },
-    { name: "Maquillage", href: "/boutique?category=maquillage" },
-    { name: "Cheveux", href: "/boutique?category=cheveux" },
     { name: "Parfums", href: "/boutique?category=parfums" },
+    { name: "Déodorants", href: "/boutique?category=deodorants" },
+    { name: "Laits de Corps", href: "/boutique?category=laits-corps" },
   ],
   informations: [
     { name: "À Propos", href: "/a-propos" },
