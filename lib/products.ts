@@ -83,7 +83,7 @@ export const products: Product[] = [
   },
   {
     id: "l2",
-    name: "Mixa Lait Corps",
+    name: "Lait corporel Mixa Niacinamide Bright",
     slug: "mixa-lait-corps",
     description: "Lait corporel enrichi pour une hydratation intense et durable.",
     price: 18000,
