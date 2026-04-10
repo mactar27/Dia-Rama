@@ -2,7 +2,22 @@ import Link from "next/link"
 import Image from "next/image"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Instagram, Facebook, Twitter } from "lucide-react"
+import { Instagram, Facebook } from "lucide-react"
+
+const TikTok = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    {...props}
+  >
+    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+  </svg>
+)
 
 const footerLinks = {
   boutique: [
@@ -54,7 +69,7 @@ export function Footer() {
                 <span className="sr-only">Instagram</span>
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1ArkWpozQ6/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 transition-colors hover:text-gold"
@@ -63,13 +78,13 @@ export function Footer() {
                 <span className="sr-only">Facebook</span>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.tiktok.com/@diarama.cosmetiques"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 transition-colors hover:text-gold"
               >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+                <TikTok className="h-5 w-5" />
+                <span className="sr-only">TikTok</span>
               </a>
             </div>
           </div>

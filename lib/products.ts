@@ -113,7 +113,7 @@ export const products: Product[] = [
   },
   {
     id: "l4",
-    name: "Mixa Peau",
+    name: "Mixa Expert Peau Sensible Crème Niacinamide Correction Éclat",
     slug: "mixa-peau",
     description: "Soin spécialisé pour les peaux sensibles, recommandé par les dermatologues.",
     price: 18000,
