@@ -98,7 +98,7 @@ export const products: Product[] = [
   },
   {
     id: "l3",
-    name: "Mixa Lait",
+    name: "Lait corporel Mixa Panthénol Confort",
     slug: "mixa-lait",
     description: "Une formule légère qui pénètre rapidement sans laisser de film gras.",
     price: 18000,

@@ -161,7 +161,7 @@ INSERT INTO products (id, name, slug, description, price, image, category_id, is
 ('d2', 'Dove Women', 'dove-women', 'Douceur et protection pour une sensation de fraîcheur toute la journée.', 8500, '/dove-women.jpeg', 'cat-deodorants', TRUE, FALSE),
 ('l1', 'Mixa Expert Peau Sensible Lait Céramide Protection', 'mixa-corps', 'Lait hydratant pour le corps, idéal pour les peaux sèches.', 18000, '/mixa-corps.jpeg', 'cat-laits', FALSE, TRUE),
 ('l2', 'Lait corporel Mixa Niacinamide Bright', 'mixa-lait-corps', 'Lait corporel enrichi pour une hydratation intense et durable.', 18000, '/mixa-lait-corps.jpeg', 'cat-laits', TRUE, FALSE),
-('l3', 'Mixa Lait', 'mixa-lait', 'Une formule légère qui pénètre rapidement sans laisser de film gras.', 18000, '/mixa-lait.jpeg', 'cat-laits', FALSE, FALSE),
+('l3', 'Lait corporel Mixa Panthénol Confort', 'mixa-lait', 'Une formule légère qui pénètre rapidement sans laisser de film gras.', 18000, '/mixa-lait.jpeg', 'cat-laits', FALSE, FALSE),
 ('l4', 'Mixa Expert Peau Sensible Crème Niacinamide Correction Éclat', 'mixa-peau', 'Soin spécialisé pour les peaux sensibles.', 18000, '/mixa-peau.jpeg', 'cat-laits', FALSE, TRUE),
 ('l5', 'Mixa Urea', 'mixa-urea', 'Enrichi en urée pour exfolier en douceur.', 18000, '/mixa-urea.jpeg', 'cat-laits', TRUE, FALSE),
 ('l6', 'Mixa Cream', 'mixa', 'Crème multi-usage pour toute la famille.', 18000, '/mixa.jpeg', 'cat-laits', FALSE, TRUE),
