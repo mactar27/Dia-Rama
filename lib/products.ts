@@ -6,7 +6,7 @@ export const products: Product[] = [
     id: "p1",
     name: "Suddenly Femelle",
     slug: "suddenly-femelle",
-    description: "Un parfum envoûtant qui capture l'essence de la féminité moderne. Une fragrance mystérieuse et élégante.",
+    description: "Eau de parfum pour femme Suddenly Femelle de la marque Lidl, flacon de 75 ml. Une fragrance élégante et envoûtante.",
     price: 55000,
     image: "/suddenly-femelle.jpeg",
     category: "parfums",
