@@ -128,7 +128,7 @@ export const products: Product[] = [
   },
   {
     id: "l5",
-    name: "Mixa Urea",
+    name: "Lait corporel Mixa Urea Cica Repair+",
     slug: "mixa-urea",
     description: "Enrichi en urée pour exfolier en douceur et hydrater les peaux très rugueuses.",
     price: 18000,
