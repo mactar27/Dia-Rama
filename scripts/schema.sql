@@ -164,6 +164,6 @@ INSERT INTO products (id, name, slug, description, price, image, category_id, is
 ('l3', 'Lait corporel Mixa Panthénol Confort', 'mixa-lait', 'Une formule légère qui pénètre rapidement sans laisser de film gras.', 18000, '/mixa-lait.jpeg', 'cat-laits', FALSE, FALSE),
 ('l4', 'Mixa Expert Peau Sensible Crème Niacinamide Correction Éclat', 'mixa-peau', 'Soin spécialisé pour les peaux sensibles.', 18000, '/mixa-peau.jpeg', 'cat-laits', FALSE, TRUE),
 ('l5', 'Lait corporel Mixa Urea Cica Repair+', 'mixa-urea', 'Enrichi en urée pour exfolier en douceur.', 18000, '/mixa-urea.jpeg', 'cat-laits', TRUE, FALSE),
-('l6', 'Mixa Cream', 'mixa', 'Crème multi-usage pour toute la famille.', 18000, '/mixa.jpeg', 'cat-laits', FALSE, TRUE),
+('l6', 'Sérum Concentré Anti-Imperfections Mixa Expert Peau Sensible', 'mixa', 'Sérum concentré pour réduire les imperfections et affiner le grain de peau.', 18000, '/mixa.jpeg', 'cat-laits', FALSE, TRUE),
 ('l7', 'Nivea Lait', 'nivea', 'Le lait corporel classique de Nivea.', 18000, '/nivea.jpeg', 'cat-laits', FALSE, TRUE)
 ON DUPLICATE KEY UPDATE name = VALUES(name), price = VALUES(price), image = VALUES(image), category_id = VALUES(category_id);

@@ -143,9 +143,9 @@ export const products: Product[] = [
   },
   {
     id: "l6",
-    name: "Mixa Cream",
+    name: "Sérum Concentré Anti-Imperfections Mixa Expert Peau Sensible",
     slug: "mixa",
-    description: "Crème multi-usage pour toute la famille. Protection et douceur.",
+    description: "Sérum concentré pour réduire les imperfections et affiner le grain de peau.",
     price: 18000,
     image: "/mixa.jpeg",
     category: "laits-corps",
