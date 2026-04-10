@@ -51,9 +51,9 @@ export const products: Product[] = [
   },
   {
     id: "d2",
-    name: "Dove Women",
+    name: "Déodorant Spray Dove - Gamme Femme",
     slug: "dove-women",
-    description: "Douceur et protection pour une sensation de fraîcheur toute la journée. Sans alcool.",
+    description: "Gamme de déodorants en spray Dove pour femme comprenant les modèles Original, Mineral Touch, Go Fresh et Sensitive.",
     price: 8500,
     image: "/dove-women.jpeg",
     category: "deodorants",
