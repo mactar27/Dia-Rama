@@ -155,15 +155,16 @@ ON DUPLICATE KEY UPDATE discount_value = VALUES(discount_value);
 
 -- Insérer les produits par défaut
 INSERT INTO products (id, name, slug, description, price, image, category_id, is_new, is_best_seller) VALUES
-('p1', 'Suddenly Femelle', 'suddenly-femelle', 'Eau de parfum Suddenly Femelle de Lidl, 75 ml. Fragrance élégante.', 55000, '/suddenly-femelle.jpeg', 'cat-parfums', TRUE, TRUE),
-('p2', 'Suddenly Mystique Original', 'suddenly-mystique', 'Eau de parfum Suddenly Mystique Original de Lidl, 75 ml.', 55000, '/suddenly-mystique.jpeg', 'cat-parfums', FALSE, TRUE),
+('p1', 'Suddenly Femelle', 'suddenly-femelle', 'Eau de parfum Suddenly Femelle de Lidl, 75 ml. Fragrance élégante.', 5000, '/suddenly-femelle.jpeg', 'cat-parfums', TRUE, TRUE),
+('p2', 'Suddenly Mystique Original', 'suddenly-mystique', 'Eau de parfum Suddenly Mystique Original de Lidl, 75 ml.', 5000, '/suddenly-mystique.jpeg', 'cat-parfums', FALSE, TRUE),
 ('d1', 'Dove Men+Care Cool Fresh', 'dove-men', 'Déodorant spray anti-transpirant Dove Men+Care Cool Fresh.', 8500, '/dove-men.jpeg', 'cat-deodorants', FALSE, TRUE),
-('d2', 'Déodorant Spray Dove - Gamme Femme', 'dove-women', 'Gamme de déodorants en spray Dove pour femme (Original, Go Fresh, etc.).', 8500, '/dove-women.jpeg', 'cat-deodorants', TRUE, FALSE),
+('d2', 'Déodorant Spray Dove - Gamme Femme', 'dove-women', 'Gamme de déodorants en spray Dove pour femme (Original, Go Fresh, etc.).', 2000, '/dove-women.jpeg', 'cat-deodorants', TRUE, FALSE),
 ('l1', 'Mixa Expert Peau Sensible Lait Céramide Protection', 'mixa-corps', 'Lait hydratant pour le corps, idéal pour les peaux sèches.', 18000, '/mixa-corps.jpeg', 'cat-laits', FALSE, TRUE),
-('l2', 'Lait corporel Mixa Niacinamide Bright', 'mixa-lait-corps', 'Lait corporel enrichi pour une hydratation intense et durable.', 18000, '/mixa-lait-corps.jpeg', 'cat-laits', TRUE, FALSE),
+('l2', 'Lait corporel Mixa Niacinamide Bright', 'mixa-lait-corps', 'Lait corporel enrichi pour une hydratation intense et durable.', 6000, '/mixa-lait-corps.jpeg', 'cat-laits', TRUE, FALSE),
 ('l3', 'Lait corporel Mixa Panthénol Confort', 'mixa-lait', 'Une formule légère qui pénètre rapidement sans laisser de film gras.', 18000, '/mixa-lait.jpeg', 'cat-laits', FALSE, FALSE),
-('l4', 'Mixa Expert Peau Sensible Crème Niacinamide Correction Éclat', 'mixa-peau', 'Soin spécialisé pour les peaux sensibles.', 18000, '/mixa-peau.jpeg', 'cat-laits', FALSE, TRUE),
-('l5', 'Lait corporel Mixa Urea Cica Repair+', 'mixa-urea', 'Enrichi en urée pour exfolier en douceur.', 18000, '/mixa-urea.jpeg', 'cat-laits', TRUE, FALSE),
-('l6', 'Sérum Concentré Anti-Imperfections Mixa Expert Peau Sensible', 'mixa', 'Sérum concentré pour réduire les imperfections et affiner le grain de peau.', 18000, '/mixa.jpeg', 'cat-laits', FALSE, TRUE),
-('l7', 'Déodorant à bille Nivea - Gamme Femme', 'nivea', 'Protection anti-transpirante 48h. Gamme variée : Invisible B&W, Powder Touch, Fresh Natural.', 8500, '/nivea.jpeg', 'cat-deodorants', FALSE, TRUE)
+('l4', 'Mixa Expert Peau Sensible Crème Niacinamide Correction Éclat', 'mixa-peau', 'Soin spécialisé pour les peaux sensibles.', 8500, '/mixa-peau.jpeg', 'cat-laits', FALSE, TRUE),
+('l5', 'Lait corporel Mixa Urea Cica Repair+', 'mixa-urea', 'Enrichi en urée pour exfolier en douceur.', 6000, '/mixa-urea.jpeg', 'cat-laits', TRUE, FALSE),
+('l6', 'Sérum Concentré Anti-Imperfections Mixa Expert Peau Sensible', 'mixa', 'Sérum concentré pour réduire les imperfections et affiner le grain de peau.', 9000, '/mixa.jpeg', 'cat-laits', FALSE, TRUE),
+('l7', 'Déodorant à bille Nivea - Gamme Femme', 'nivea', 'Protection anti-transpirante 48h. Gamme variée : Invisible B&W, Powder Touch, Fresh Natural.', 8500, '/nivea.jpeg', 'cat-deodorants', FALSE, TRUE),
+('l8', 'Mixa Expert Peau Sensible Crème Urea Cica Repair+', 'mixa-creme-urea', 'Crème réparatrice intense enrichie en urée.', 8500, '/mixa-creme-urea.jpeg', 'cat-laits', TRUE, FALSE)
 ON DUPLICATE KEY UPDATE name = VALUES(name), price = VALUES(price), image = VALUES(image), category_id = VALUES(category_id);

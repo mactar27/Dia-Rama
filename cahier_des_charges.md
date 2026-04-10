@@ -82,3 +82,14 @@ Le schéma SQL repose sur les entités suivantes :
     - **TikTok**
 - Système de newsletter pour la fidélisation client.
 - Support des codes promotionnels (ex: BIENVENUE20).
+
+---
+
+## 7. Catalogue et Tarification (Exemples)
+Voici les tarifs de référence pour les produits clés :
+- **Parfums** (Suddenly Femelle, Suddenly Mystique Original) : 5 000 FCFA
+- **Déodorants Spray femme** (Gamme Dove) : 2 000 FCFA l'unité
+- **Laits corporels** (Mixa Urea Cica Repair+, Mixa Niacinamide Bright) : 6 000 FCFA
+- **Crèmes Expert** (Niacinamide Correction Éclat, Urea Cica Repair+) : 8 500 FCFA
+- **Sérums** (Anti-Imperfections Mixa Expert) : 9 000 FCFA
+
