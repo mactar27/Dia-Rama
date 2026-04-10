@@ -19,9 +19,9 @@ export const products: Product[] = [
   },
   {
     id: "p2",
-    name: "Suddenly Mystique",
+    name: "Suddenly Mystique Original",
     slug: "suddenly-mystique",
-    description: "Une fragrance sophistiquée aux notes orientales. Parfait pour les soirées et les occasions spéciales.",
+    description: "Eau de parfum Suddenly Mystique Original de Lidl, 75 ml. Une fragrance sophistiquée aux notes orientales.",
     price: 55000,
     image: "/suddenly-mystique.jpeg",
     category: "parfums",
